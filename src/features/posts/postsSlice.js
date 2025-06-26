@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// Async thunk to fetch posts using axios
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
   const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
   return res.data;

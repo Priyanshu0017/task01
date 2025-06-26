@@ -1,4 +1,4 @@
-// filepath: d:\Eskills web dev\New folder\posts-list\src\features\store.js
+
 import { configureStore } from "@reduxjs/toolkit";
 import postsReducer from "./posts/postsSlice";
 
